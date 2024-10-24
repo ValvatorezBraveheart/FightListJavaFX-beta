@@ -1,0 +1,77 @@
+
+/*
+I didn't want to focus much on designinghow  I want to make the button, simply want to learn the layout and stuffs
+Theses are copied from https://getcssscan.com/css-buttons-examples specifilly button 19 by duolingo
+Edited to fitted javafx css style (some features removed)
+*/
+@font-face {
+font-family: 'Dimbo Regular';
+src: url('../fonts/DimboRegular.ttf');
+}
+
+.background {
+    -fx-background-color:DodgerBlue;
+}
+
+.label{
+    -fx-font-family: Dimbo Regular;
+    -fx-font-color:white;
+}
+
+.title {
+    -fx-font-color:white;
+    -fx-font-size: 60px;
+    -fx-font-weight: bold;
+}
+
+.heading{
+    -fx-font-family: Dimbo Regular;
+    -fx-font-color:white;
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: white;
+    -fx-background-radius: 16px;
+    -fx-border-color: transparent;
+    -fx-border-width: 0 0 4px;
+    -fx-border-radius: 16px;
+    -fx-cursor: hand;
+    -fx-user-select: none;
+    -fx-min-width: 100%;
+    -fx-background-insets: 0, 0;
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+    -fx-font-family: Dimbo Regular;
+}
+
+.button:hover {
+    -fx-background-color: #b5c3c9;
+}
+
+.toggle-button {
+    -fx-background-color: white;
+    -fx-border-color: transparent;
+    -fx-border-width: 0 0 0px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-font-size: 15px;
+    -fx-cursor: hand;
+    -fx-font-family: Dimbo Regular;
+}
+
+.toggle-button:selected{
+    -fx-background-color: #b5c3c9;
+}
+
+.list-view{
+    -fx-background-radius: 20px;
+    -fx-border-color: transparent;
+    -fx-border-width: 0 0 0px;
+    -fx-border-radius: 20px;
+}
+.list-cell{
+    -fx-font-family: Dimbo Regular;
+}

@@ -1,0 +1,11 @@
+
+.roundNumber {
+    -fx-font-color: white;
+    -fx-font-size: 20px;
+}
+.roundTimer {
+    -fx-font-size: 96px;
+}
+.playerName{
+    -fx-font-size: 25px;
+}

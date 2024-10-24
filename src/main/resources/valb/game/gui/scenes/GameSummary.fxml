@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.*?>
+<?import java.net.URL?>
+<VBox alignment="CENTER" prefHeight="720.0" prefWidth="1280.0" spacing="50.0" style="-fx-background-color: DodgerBlue;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="valb.game.gui.scenes.GameSummaryController">
+   <children>
+      <Label styleClass="title" text="Game Summary" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="200.0" stylesheets="@../css/standard.css">
+         <children>
+            <VBox alignment="CENTER" spacing="50.0">
+               <children>
+                  <Label styleClass="summary" text="Round 1" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label styleClass="summary" text="Round 2" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label styleClass="summary" text="Round 3" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label styleClass="summary" text="Round 4" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label styleClass="summary" text="Round 5" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label styleClass="summary" text="Overall" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" spacing="50.0">
+               <children>
+                  <Label fx:id="labelScore1" styleClass="summary" text="Label" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="labelScore2" styleClass="summary" text="Label" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="labelScore3" styleClass="summary" text="Label" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="labelScore4" styleClass="summary" text="Label" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="labelScore5" styleClass="summary" text="Label" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="labelScoreOverall" styleClass="summary" text="Label" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Button fx:id="buttonFinish" mnemonicParsing="false" onAction="#finish" stylesheets="@../css/standard.css" text="Finish">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+   <stylesheets>
+      <URL value="@../css/standard.css" />
+      <URL value="@../css/summary.css" />
+   </stylesheets>
+</VBox>

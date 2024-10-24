@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" styleClass="background" stylesheets="@../css/standard.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="valb.game.gui.scenes.TutorialController">
+   <children>
+      <Label layoutX="15.0" layoutY="668.0" text="I'm too lazy to make this look pretty">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="60.0" text="- Look at the topic question">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="104.0" text="- Type in your answer">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="149.0" text="- You have 60 seconds">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="194.0" text="- Ok bye">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonBack" layoutX="269.0" layoutY="315.0" mnemonicParsing="false" onAction="#buttonBackOnAction" text="Get me out of this lazy tutorial">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Button>
+      <Label layoutX="832.0" layoutY="118.0" text="more in the game itself" />
+   </children>
+</AnchorPane>
