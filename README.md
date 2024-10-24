@@ -36,22 +36,12 @@ java -version
 
 If you have older version of java, install a new one at [Java Downloads](https://www.oracle.com/ca-en/java/technologies/downloads/)
 
-
-## Installation (Without Leaderboard)
-
-To install the project:
-
-- **Download the executable file from [here]()** 
-- **Click and play**
-
-
 ## Installation (With Leaderboard)
 
 
 To install the project:
 
-- **Download the executable file from [here]()** 
-- **Click and play**
+- **Download the executable file from the release section
 
 To set up database for the leaderboard:
 
