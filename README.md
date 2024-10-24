@@ -38,10 +38,11 @@ If you have older version of java, install a new one at [Java Downloads](https:/
 
 ## Installation (With Leaderboard)
 
+If leaderboard is not set up, the application won't crash, just that leaderboard button won't do anything
 
 To install the project:
 
-- **Download the executable file from the release section
+- Download the executable file from the release section
 
 To set up database for the leaderboard:
 
